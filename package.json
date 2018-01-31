@@ -1,0 +1,23 @@
+{
+  "name": "node-datastructures-es6",
+  "version": "1.0.0",
+  "description": "A small project for implementing classic datastructures in es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/global.tests.js $(find ./test -path '*.tests*')  --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nephross/node-datastructures-es6.git"
+  },
+  "author": "Peter Dalgaard-Jensen <nephross.cortex@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nephross/node-datastructures-es6/issues"
+  },
+  "homepage": "https://github.com/nephross/node-datastructures-es6#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
